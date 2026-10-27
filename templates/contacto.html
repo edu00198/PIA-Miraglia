@@ -3,15 +3,15 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Características | Sonora S1</title>
-<meta name="description" content="Sonido, batería, comodidad y conectividad del auricular inalámbrico Sonora S1.">
+<title>Contacto | Sonora S1</title>
+<meta name="description" content="Formulario de contacto para consultar por el lanzamiento del auricular inalámbrico Sonora S1.">
 <meta name="keywords" content="auriculares, inalámbricos, Bluetooth, cancelación de ruido, Sonora S1">
 <meta name="author" content="Felipe José Torterolo">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&amp;family=Open+Sans:wght@400;600&amp;display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-<link rel="stylesheet" href="../css/estilos.css">
+<link rel="stylesheet" href="../static/estilos.css">
 </head>
 <body>
 <header id="inicio">
@@ -24,81 +24,57 @@
       <div class="collapse navbar-collapse" id="menu">
         <ul class="navbar-nav ms-auto">
         <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
-        <li class="nav-item"><a class="nav-link active" aria-current="page" href="caracteristicas.html">Características</a></li>
+        <li class="nav-item"><a class="nav-link" href="caracteristicas.html">Características</a></li>
         <li class="nav-item"><a class="nav-link" href="especificaciones.html">Especificaciones</a></li>
         <li class="nav-item"><a class="nav-link" href="galeria.html">Galería</a></li>
-        <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+        <li class="nav-item"><a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a></li>
         </ul>
       </div>
     </div>
   </nav>
   <div class="container portada">
-    <h1>Características del Sonora S1</h1>
-    <p class="lead">Todo lo que ofrece el auricular, explicado en cuatro puntos.</p>
+    <h1>Contacto</h1>
+    <p class="lead">Dejanos tu consulta y te respondemos a la brevedad.</p>
   </div>
 </header>
 <main class="container">
 
-<section id="sonido">
-  <h2>Sonido y cancelación de ruido</h2>
-  <article>
-    <h3>Audio equilibrado</h3>
-    <p>Los drivers de 40 mm entregan graves profundos, voces claras y agudos nítidos, sin distorsión aun a volumen alto.</p>
-  </article>
-  <article>
-    <h3>Tres modos de escucha</h3>
-    <ul>
-      <li><strong>Cancelación activa:</strong> bloquea el ruido del tránsito y de los transportes.</li>
-      <li><strong>Sonido ambiente:</strong> te deja oír lo que pasa a tu alrededor.</li>
-      <li><strong>Modo normal:</strong> ahorra batería y reproduce el audio sin filtros.</li>
-    </ul>
-  </article>
-</section>
-
-<section id="bateria">
-  <h2>Batería y carga</h2>
-  <article>
-    <h3>Autonomía para toda la semana</h3>
-    <p>Con la cancelación de ruido encendida llegás a <strong>30 horas</strong> de uso. Con el modo normal, a <strong>40 horas</strong>.</p>
-  </article>
-  <article>
-    <h3>Carga rápida por USB-C</h3>
-    <ol>
-      <li>Conectá el cable USB-C al auricular.</li>
-      <li>Esperá 10 minutos.</li>
-      <li>Disfrutá de 5 horas de música.</li>
-    </ol>
-  </article>
-</section>
-
-<section id="comodidad">
-  <h2>Comodidad</h2>
-  <div class="row align-items-center">
-    <div class="col-12 col-md-6">
-      <article>
-        <h3>Almohadillas de espuma viscoelástica</h3>
-        <p>Se adaptan a la forma de la oreja, aíslan mejor el sonido y no aprietan. Además son removibles, así que se pueden lavar o reemplazar.</p>
-      </article>
+<section id="consulta">
+  <h2>Formulario de consulta</h2>
+  <div class="row">
+    <div class="col-12 col-lg-8">
+      <form id="formulario" action="contacto.html" method="get">
+        <div class="mb-3">
+          <label class="form-label" for="nombre">Nombre y apellido</label>
+          <input class="form-control" type="text" id="nombre" name="nombre" required>
+        </div>
+        <div class="mb-3">
+          <label class="form-label" for="correo">Correo electrónico</label>
+          <input class="form-control" type="email" id="correo" name="correo" required>
+        </div>
+        <div class="mb-3">
+          <label class="form-label" for="color">Color que te interesa</label>
+          <select class="form-select" id="color" name="color">
+            <option value="grafito">Grafito</option>
+            <option value="blanco">Blanco</option>
+            <option value="azul">Azul marino</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <label class="form-label" for="mensaje">Mensaje</label>
+          <textarea class="form-control" id="mensaje" name="mensaje" rows="5" required></textarea>
+        </div>
+        <button class="btn btn-primary" type="submit">Enviar consulta</button>
+      </form>
     </div>
-    <div class="col-12 col-md-6">
-      <figure>
-        <img class="img-fluid" src="../img/almohadillas.jpg" width="1200" height="675" alt="Primer plano de la almohadilla de un auricular Sonora S1 con aro verde azulado">
-        <figcaption>Almohadilla de espuma del Sonora S1.</figcaption>
-      </figure>
+    <div class="col-12 col-lg-4">
+      <aside class="aviso">
+        <h3>Antes de escribir</h3>
+        <p>Muchas dudas se responden en <a href="especificaciones.html">especificaciones</a> y en <a href="caracteristicas.html#conectividad">conectividad</a>.</p>
+        <p>También podés escribirnos a <a href="mailto:ventas@sonoras1.com.ar">ventas@sonoras1.com.ar</a>.</p>
+      </aside>
     </div>
   </div>
-</section>
-
-<section id="conectividad">
-  <h2>Conectividad</h2>
-  <article>
-    <h3>Dos dispositivos al mismo tiempo</h3>
-    <p>Conectá el celular y la computadora a la vez y pasá de una llamada a tu música sin tocar nada. Si preferís usar cable, incluye una entrada de audio de 3,5 mm.</p>
-  </article>
-  <aside class="aviso">
-    <h3>Datos técnicos</h3>
-    <p>Mirá las medidas, el peso y el alcance en <a href="especificaciones.html#conexion">especificaciones</a>.</p>
-  </aside>
 </section>
 </main>
 <footer>
