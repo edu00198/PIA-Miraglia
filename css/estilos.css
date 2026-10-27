@@ -1,0 +1,125 @@
+/* Etiquetas */
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f4f6f8;
+  color: #222222;
+}
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+h2 {
+  color: #0b5f66;
+  margin-bottom: 20px;
+}
+h3 {
+  font-size: 1.2rem;
+}
+a {
+  color: #0b5f66;
+}
+header {
+  background-color: #1f2328;
+  color: #ffffff;
+}
+main {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+section {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #d0d7de;
+}
+figure {
+  margin: 0;
+}
+figcaption {
+  text-align: center;
+  font-style: italic;
+  color: #555555;
+}
+dt {
+  color: #0b5f66;
+  margin-top: 10px;
+}
+footer {
+  background-color: #1f2328;
+  color: #ffffff;
+  padding: 30px 0 10px 0;
+}
+
+/* ID */
+#inicio {
+  border-bottom: 4px solid #12a3a3;
+}
+#destacados {
+  background-color: #e6f4f4;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#formulario {
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #d0d7de;
+}
+
+/* Clases */
+.portada {
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+.tarjeta {
+  background-color: #ffffff;
+  border: 1px solid #d0d7de;
+  padding: 15px;
+  height: 100%;
+}
+.aviso {
+  background-color: #fff6d6;
+  border-left: 5px solid #e0a800;
+  padding: 15px;
+}
+.navbar-brand {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+/* Pseudoclases */
+a:hover {
+  color: #12a3a3;
+}
+.nav-link:hover {
+  color: #12a3a3;
+}
+.nav-link.active {
+  border-bottom: 2px solid #12a3a3;
+}
+input:focus, textarea:focus, select:focus {
+  background-color: #e6f4f4;
+}
+li:first-child .tarjeta {
+  border-top: 4px solid #12a3a3;
+}
+
+/* Etiquetas descendientes */
+header nav a {
+  text-decoration: none;
+}
+header .portada p {
+  color: #cfd8dc;
+}
+footer ul li a {
+  color: #ffffff;
+}
+footer ul li a:hover {
+  color: #12a3a3;
+}
+section article h3 {
+  color: #1f2328;
+}
+.tarjeta p a {
+  font-weight: 600;
+}
+img {
+  border-radius: 6px;
+}
