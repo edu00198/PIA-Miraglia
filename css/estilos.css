@@ -1,0 +1,183 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #263537;
+  background-color: #f7f8f7;
+  line-height: 1.6;
+}
+
+h1, h2, h3, .navbar-brand {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1.1rem;
+}
+
+a {
+  color: #075e5a;
+}
+
+a:hover {
+  color: #168078;
+}
+
+header {
+  color: white;
+  background-color: #203335;
+}
+
+#inicio {
+  border-bottom: 4px solid #32857c;
+}
+
+.navbar {
+  padding: 1rem 0;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #e0e8e7;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link.active {
+  color: white;
+  text-decoration: underline;
+}
+
+.portada {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.portada h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.portada p {
+  font-size: 1.1rem;
+  margin-bottom: 0;
+  color: #dce8e5;
+}
+
+main {
+  padding-bottom: 3rem;
+}
+
+section {
+  padding: 3rem 0;
+  border-bottom: 1px solid #d9e1df;
+}
+
+section:last-child {
+  border-bottom: 0;
+}
+
+section p {
+  max-width: 680px;
+}
+
+figure {
+  margin: 1rem 0;
+  background-color: white;
+  border: 1px solid #d9e1df;
+}
+
+figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+figcaption {
+  padding: 0.6rem 1rem;
+  color: #536461;
+  font-size: 0.9rem;
+}
+
+#destacados li {
+  margin-bottom: 1rem;
+}
+
+.tarjeta {
+  height: 100%;
+  padding: 1.3rem;
+  background-color: white;
+  border: 1px solid #d9e1df;
+}
+
+.tarjeta h3 {
+  color: #075e5a;
+}
+
+dt {
+  margin-top: 1rem;
+  color: #075e5a;
+}
+
+dd {
+  margin-bottom: 0.3rem;
+}
+
+#formulario {
+  padding: 1.5rem;
+  background-color: white;
+  border: 1px solid #d9e1df;
+}
+
+.btn-primary {
+  background-color: #075e5a;
+  border-color: #075e5a;
+}
+
+.btn-primary:hover {
+  background-color: #064a47;
+  border-color: #064a47;
+}
+
+.aviso {
+  margin-top: 1rem;
+  padding: 1.2rem;
+  background-color: #e8f1ef;
+  border-left: 4px solid #32857c;
+}
+
+footer {
+  padding: 2rem 0;
+  color: #e0e8e7;
+  background-color: #203335;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  color: #c8e3df;
+}
+
+footer p {
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 767px) {
+  .portada h1 {
+    font-size: 2rem;
+  }
+  .portada {
+    padding: 2rem 0.75rem;
+  }
+  section {
+    padding: 2rem 0;
+  }
+}
