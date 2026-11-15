@@ -1,5 +1,6 @@
+/*FUENTE Y TEXTO*/
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #263537;
   background-color: #f7f8f7;
   line-height: 1.6;
@@ -10,14 +11,24 @@ h1, h2, h3, .navbar-brand {
 }
 
 h2 {
-  font-size: 1.8rem;
-  margin-bottom: 1rem;
+  font-size: 29px;
+  margin-bottom: 16px;
 }
 
 h3 {
-  font-size: 1.1rem;
+  font-size: 18px;
 }
 
+section p {
+  max-width: 680px;
+}
+
+.card-body h3 {
+  color: #075e5a;
+}
+
+
+/*ENLACES*/
 a {
   color: #075e5a;
 }
@@ -26,6 +37,8 @@ a:hover {
   color: #168078;
 }
 
+
+/*HEADER - MENU*/
 header {
   color: white;
   background-color: #203335;
@@ -36,12 +49,12 @@ header {
 }
 
 .navbar {
-  padding: 1rem 0;
+  padding: 16px 0;
 }
 
 .navbar-brand {
   font-weight: 700;
-  font-size: 1.4rem;
+  font-size: 22px;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -54,28 +67,32 @@ header {
   text-decoration: underline;
 }
 
+
+/*PORTADA*/
 .portada {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 48px;
+  padding-bottom: 48px;
 }
 
 .portada h1 {
-  font-size: 2.5rem;
+  font-size: 40px;
   font-weight: 700;
 }
 
 .portada p {
-  font-size: 1.1rem;
+  font-size: 18px;
   margin-bottom: 0;
   color: #dce8e5;
 }
 
+
+/*CONTENIDO Y SECCIONES*/
 main {
-  padding-bottom: 3rem;
+  padding-bottom: 48px;
 }
 
 section {
-  padding: 3rem 0;
+  padding: 48px 0;
   border-bottom: 1px solid #000000;
 }
 
@@ -83,12 +100,14 @@ section:last-child {
   border-bottom: 0;
 }
 
-section p {
-  max-width: 680px;
+.tarjeta {
+  width: 288px;
 }
 
+
+/*IMAGENES*/
 figure {
-  margin: 1rem 0;
+  margin: 16px 0;
   background-color: white;
   border: 1px solid #d9e1df;
 }
@@ -100,34 +119,32 @@ figure img {
 }
 
 figcaption {
-  padding: 0.6rem 1rem;
+  padding: 10px 16px;
   color: #536461;
-  font-size: 0.9rem;
+  font-size: 14px;
 }
 
-#destacados li {
-  margin-bottom: 1rem;
-}
 
-.card-body h3 {
-  color: #075e5a;
-}
-
+/*LISTA DE TEXTO*/
 dt {
-  margin-top: 1rem;
+  margin-top: 16px;
   color: #075e5a;
 }
 
 dd {
-  margin-bottom: 0.3rem;
+  margin-bottom: 5px;
 }
 
+
+/*FORMULARIO*/
 #formulario {
-  padding: 1.5rem;
+  padding: 24px;
   background-color: white;
   border: 1px solid #d9e1df;
 }
 
+
+/*BOTON PRINCIPAL*/
 .btn-primary {
   background-color: #075e5a;
   border-color: #075e5a;
@@ -138,15 +155,10 @@ dd {
   border-color: #064a47;
 }
 
-.aviso {
-  margin-top: 1rem;
-  padding: 1.2rem;
-  background-color: #e8f1ef;
-  border-left: 4px solid #32857c;
-}
 
+/*FOOTER*/
 footer {
-  padding: 2rem 0;
+  padding: 32px 0;
   color: #e0e8e7;
   background-color: #203335;
 }
@@ -160,29 +172,34 @@ footer a:hover {
 }
 
 footer p {
-  margin-bottom: 0.5rem;
+  margin-bottom: 8px;
 }
 
 .full_izq {
-    text-align: left;
-    padding-left: 0px;
-}
-.redes_der {
-    display: flex;
-    justify-content: right;
-    gap: 20px;
-    font-size: 52px;
-    margin: 20px 0;
+  text-align: left;
+  padding-left: 0;
 }
 
+.redes_der {
+  display: flex;
+  justify-content: right;
+  gap: 20px;
+  font-size: 52px;
+  margin: 20px 0;
+}
+
+
+/*PANTALLA*/
 @media (max-width: 767px) {
   .portada h1 {
-    font-size: 2rem;
+    font-size: 32px;
   }
+
   .portada {
-    padding: 2rem 0.75rem;
+    padding: 32px 12px;
   }
+
   section {
-    padding: 2rem 0;
+    padding: 32px 0;
   }
 }
