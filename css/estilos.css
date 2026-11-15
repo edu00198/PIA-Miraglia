@@ -76,7 +76,7 @@ main {
 
 section {
   padding: 3rem 0;
-  border-bottom: 1px solid #d9e1df;
+  border-bottom: 1px solid #000000;
 }
 
 section:last-child {
@@ -109,14 +109,7 @@ figcaption {
   margin-bottom: 1rem;
 }
 
-.tarjeta {
-  height: 100%;
-  padding: 1.3rem;
-  background-color: white;
-  border: 1px solid #d9e1df;
-}
-
-.tarjeta h3 {
+.card-body h3 {
   color: #075e5a;
 }
 
@@ -168,6 +161,18 @@ footer a:hover {
 
 footer p {
   margin-bottom: 0.5rem;
+}
+
+.full_izq {
+    text-align: left;
+    padding-left: 0px;
+}
+.redes_der {
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+    font-size: 52px;
+    margin: 20px 0;
 }
 
 @media (max-width: 767px) {

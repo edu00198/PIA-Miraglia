@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/estilos.css">
 </head>
@@ -20,9 +21,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="menu">
-        
         <ul class="navbar-nav ms-auto">
-
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
           </li>
@@ -58,9 +57,8 @@
     <div class="col-12 col-md-6">
       <h2>Para escuchar todos los días</h2>
       <p><strong>Arc Pro</strong> es un auricular inalámbrico de diadema pensado para escuchar música, estudiar o viajar. Combina sonido, comodidad y autonomía en un diseño fácil de llevar.</p>
-      <p>Se conecta por Bluetooth, tiene cancelación de ruido y se puede guardar en su estuche. Conocé sus <a href="caracteristicas.html">características</a> o consultá las <a href="especificaciones.html">especificaciones</a>.</p>
-
-      <a class="btn btn-primary" href="galeria.html">Imagenes del producto</a>
+      <p>Se conecta por Bluetooth, tiene cancelación de ruido y se puede guardar en su estuche.</p>
+      <a href="especificaciones.html">Ir a las especificaciones</a>
     </div>
     <div class="col-12 col-md-6">
       <figure class="figure">
@@ -70,37 +68,93 @@
     </div>
   </div>
 </section>
+
 <section id="destacados">
   <h2>Lo más destacado</h2>
-  <ul class="row list-unstyled">
-    <li class="col-12 col-md-6 col-lg-3"><div class="tarjeta"><h3>Cancelación de ruido</h3><p>Reduce el ruido del entorno mientras escuchás.</p><a href="caracteristicas.html#sonido">Ver sonido</a></div></li>
-    <li class="col-12 col-md-6 col-lg-3"><div class="tarjeta"><h3>Hasta 40 horas</h3><p>Autonomía con la cancelación apagada.</p><a href="caracteristicas.html#bateria">Ver batería</a></div></li>
-    <li class="col-12 col-md-6 col-lg-3"><div class="tarjeta"><h3>Bluetooth 5.3</h3><p>Conexión inalámbrica para tus dispositivos.</p><a href="caracteristicas.html#conectividad">Ver conexión</a></div></li>
-    <li class="col-12 col-md-6 col-lg-3"><div class="tarjeta"><h3>Comodidad</h3><p>Almohadillas suaves para escuchar durante horas.</p><a href="caracteristicas.html#comodidad">Ver diseño</a></div></li>
-  </ul>
+  <div class="d-flex flex-wrap gap-2">
+    <div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <h3 class="card-title">Cancelacion de sonido</h3>
+        <p class="card-text">Reduce el ruido del entorno mientras escuchas.</p>
+      </div>
+      <div class="card-body">
+        <a href="caracteristicas.html#sonido" class="card-link">Ver sonido</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <h3 class="card-title">Hasta 40 horas</h3>
+        <p class="card-text">Autonomía con la cancelación apagada.</p>
+      </div>
+      <div class="card-body">
+        <a href="caracteristicas.html#bateria" class="card-link">Ver bateria</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <h3 class="card-title">Bluetooth 5.3</h3>
+        <p class="card-text">Conexión inalámbrica para tus dispositivos.</p>
+      </div>
+      <div class="card-body">
+        <a href="caracteristicas.html#conectividad" class="card-link">Ver conexion</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <h3 class="card-title">Comodidad</h3>
+        <p class="card-text">Almohadillas suaves para escuchar durante horas.</p>
+      </div>
+      <div class="card-body">
+        <a href="caracteristicas.html#comodidad" class="card-link">Ver diseño</a>
+      </div>
+    </div>
+  </div>
 </section>
+
 <section id="galeria">
-  <h2>Conocelo de cerca</h2>
+  <h2>Mas de cerca</h2>
   <p>En la galería podés ver el auricular, las almohadillas y el estuche.</p>
-  <a href="galeria.html">Ir a la galería</a>
+  <a class="btn btn-primary btn-lg" href="galeria.html">Ir a la galeria</a>
 </section>
 </main>
+
+
 <footer>
   <div class="container">
-    <nav aria-label="Navegación del pie">
-      <ul class="list-unstyled d-flex flex-wrap gap-3">
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="caracteristicas.html">Características</a></li>
-        <li><a href="especificaciones.html">Especificaciones</a></li>
-        <li><a href="galeria.html">Galería</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
-        <li><a href="#inicio">Volver arriba</a></li>
+      <ul class="list-unstyled d-flex flex-wrap gap-5">
+        <li>
+          <a href="index.html">Inicio</a>
+        </li>
+        <li>
+          <a href="caracteristicas.html">Características</a>
+        </li>
+        <li>
+          <a href="especificaciones.html">Especificaciones</a>
+        </li>
+        <li>
+          <a href="galeria.html">Galería</a>
+        </li>
+        <li>
+          <a href="contacto.html">Contacto</a>
+        </li>
+        <li>
+          <a href="#inicio">Volver arriba</a>
+        </li>
+
       </ul>
-    </nav>
-    <p>Arc Pro · Sitio realizado para el trabajo final.</p>
-    <p><a href="https://www.huergo.edu.ar/">Instituto Huergo</a> · <a href="https://getbootstrap.com/">Bootstrap</a></p>
+
+    <div class="redes_der">
+      <a href="https://www.huergo.edu.ar/" target="_blank">
+        <img src="imagenes/logo_huergo.png" alt="logo del huergo" width="65" height="65">
+      </a>
+      <a href="https://getbootstrap.com/" target="_blank">
+          <i class="fa-brands fa-bootstrap"></i>
+      </a>
+    </div>
+    <p class= full_izq > © Arc Pro, All rights reserved</p>
   </div>
 </footer>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>
